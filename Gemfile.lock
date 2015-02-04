@@ -84,6 +84,7 @@ GEM
       request_store (>= 1.0.5)
     hike (1.2.3)
     i18n (0.7.0)
+    jquery (0.0.1)
     js-routes (1.0.0)
       railties (>= 3.2)
       sprockets-rails
@@ -136,6 +137,8 @@ GEM
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
     request_store (1.1.0)
+    responders (2.1.0)
+      railties (>= 4.2.0, < 5)
     sass (3.4.10)
     sass-rails (5.0.1)
       railties (>= 4.0.0, < 5.0)
@@ -179,11 +182,13 @@ DEPENDENCIES
   eco
   foundation-icons-sass-rails
   gon
+  jquery
   js-routes
   oj
   rabl
   rails
   rails-dev-tweaks
+  responders (~> 2.0)
   sass-rails
   sqlite3
   thin

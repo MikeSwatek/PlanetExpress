@@ -25,7 +25,8 @@ gem "oj"
 gem "gon"
 gem "js-routes"
 gem 'tzinfo-data'
-
+gem 'jquery'
+gem 'responders', '~> 2.0'
 group :development, :test do
   gem 'rails-dev-tweaks'
 end
